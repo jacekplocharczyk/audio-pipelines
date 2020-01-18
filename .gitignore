@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.pytest_cache/
+.vscode/
+fairseq/Untitled.ipynb
+fairseq/fairseq/
+*.pt
