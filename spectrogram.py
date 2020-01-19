@@ -30,5 +30,5 @@ def wav2img(wav_path, figsize=(4,4)):
     plt.close()
 
 if __name__ == '__main__':
-    for x in sys.args:
-        waw2img(x)
+    for x in sys.argv[1:]:
+        wav2img(x)
